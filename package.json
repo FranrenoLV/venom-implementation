@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "lint": "eslint --ext .js,.ts .",
+    "build": "tsc",
+    "build:watch": "tsc --watch"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "devDependencies": {
+    "@types/mime-types": "^2.1.1",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "mime-types": "^2.1.35",
+    "nodemailer": "^6.9.1",
+    "venom-bot": "^4.3.7"
+  }
+}
